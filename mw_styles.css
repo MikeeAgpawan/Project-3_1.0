@@ -30,7 +30,8 @@ nav ul {
 }
 
 
-nav a{
+nav ul li a{
+  color: white;
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
@@ -43,10 +44,62 @@ nav ul li:hover {
 
 nav ul li a:hover{
   color:yellow;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 1.0);
 }
 
 
-#leftsection {
+/*Leftsection*/
+#leftsection > p{
   font-size: 22px;
+}
+
+#firstpar:first-line {
+  text-transform: uppercase;
+}
+
+
+/* Blockquote portion*/
+blockquote {
+  background-color: rgb(131,121,36);
+  color: white;
+  font-size: 16px;
+  font-family: Comic Sans MS, Times, cursive;
+}
+
+blockquote p{
+  quotes: "“" "”" "‘" "’";
+}
+blockquote p:before {
+    content: open-quote;
+}
+blockquote p:after {
+    content: close-quote;
+}
+
+
+/*Rightsection*/
+#rightsection h1 {
+  font-size: 22px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#rightsection h2 {
+  font-size: 18px;
+  text-align: right;
+  font-weight: normal;
+}
+
+#rightsection p {
+  color: gray;
+  font-size: 14px;
+  text-align: justify;
+}
+
+
+footer address{
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
 }
